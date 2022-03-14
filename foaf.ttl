@@ -1,0 +1,14 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://samanthabroking.github.io/samanthabroking/foaf.ttl>
+   a foaf:PersonalProfileDocument ;
+   foaf:maker <https://samanthabroking.github.io/samanthabroking/foaf.ttl#me> ;
+   foaf:primaryTopic <https://www.wikidata.org/wiki/Q7814> .
+
+<https://samanthabroking.github.io/samanthabroking/foaf.ttl#me>
+   a foaf:Person ;
+   foaf:givenName "Samantha Broking" ;
+   foaf:workInfoHomepage <http://samanthabroking.github.io/> ;
+   foaf:nick "Sam" ;
+   foaf:mbox "samhbroking@gmail.com" ;
+   foaf:age "26" .
